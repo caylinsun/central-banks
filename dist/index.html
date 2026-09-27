@@ -1,0 +1,423 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Central Bank Watch · Caylin</title><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230c2038'/%3E%3Cpath d='M6 12L16 6l10 6M8 14v10m8-10v10m8-10v10M5 26h22' fill='none' stroke='%237ad6c8' stroke-width='3'/%3E%3C/svg%3E"><style>:root{font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#13283d;background:#edf2f7;font-size:15px;--navy:#0c2038;--line:#d6e0ea;--muted:#61758a;--teal:#087c76;--blue:#245da8;--purple:#7053a4}*{box-sizing:border-box}body{margin:0}header{height:46px;padding:0 3vw;background:var(--navy);color:#dce8f4;display:flex;justify-content:space-between;align-items:center;font-size:11px;letter-spacing:.09em}.brand{font-size:21px;font-weight:850}.brand span{font-size:11px;margin-left:8px;color:#9fb7ce}main{max-width:1640px;padding:20px 3vw 32px;margin:auto}.hero{display:flex;justify-content:space-between;align-items:center;gap:24px}.eyebrow{font-size:10px;font-weight:800;letter-spacing:.14em;color:#547089;margin:0 0 5px}.hero h1{font-size:29px;letter-spacing:-.045em;margin:0 0 4px}.hero p{margin:0;color:#60758a}.refresh{text-align:right}.refresh button,.foot button,.tab,.close{font:inherit;cursor:pointer;border:0}.refresh button{border-radius:7px;padding:9px 13px;background:#1f5da8;color:#fff;font-weight:750}.refresh p{font-size:11px;margin:5px 0;color:#60758a}.view-tabs{display:flex;gap:6px;margin:18px 0 10px}.tab{padding:8px 12px;border-radius:7px;background:#dfe7ef;color:#51677d;font-size:13px;font-weight:750}.tab.active{background:var(--navy);color:white}.notice{min-height:38px;display:flex;align-items:center;gap:9px;border:1px solid #ccd9e5;background:#f8fbfd;border-radius:8px;padding:8px 12px;font-size:12px;color:#5c7084}.notice>span:first-child{color:#e29a30}.notice strong{color:#243d56}.view{display:none}.view.active{display:block}.region{--accent:var(--blue);margin-top:17px}.region[data-region="Asia"]{--accent:var(--teal)}.region[data-region="Europe"]{--accent:var(--purple)}.region-title{display:flex;align-items:baseline;gap:9px;margin-bottom:7px}.region-title h2,.section-head h2{font-size:17px;margin:0}.region-title span{font-size:11px;color:#73869a}.cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:11px}.card{height:394px;background:#fff;border:1px solid var(--line);border-top:3px solid var(--accent);border-radius:10px;padding:13px;display:flex;flex-direction:column;min-width:0;transition:.18s ease}.card:hover{transform:translateY(-2px);box-shadow:0 10px 25px #18324d16;border-color:var(--accent)}.card-top{display:flex;align-items:center;gap:9px;min-height:41px}.bank-icon,.table-icon{width:31px;height:31px;border-radius:8px;background:color-mix(in srgb,var(--accent) 13%,white);display:inline-grid;place-items:center;font-size:17px}.bank-title{min-width:0;flex:1}.bank-title span{font-size:10px;color:#72869a}.bank-title h3{font-size:14px;line-height:1.15;margin:1px 0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.abbr{font-size:10px;font-weight:850;color:var(--accent);letter-spacing:.07em}.leader{display:flex;gap:9px;align-items:center;margin:9px 0}.portrait{width:47px;height:52px;object-fit:cover;object-position:50% 20%;border-radius:7px;background:#edf2f6;flex-shrink:0}.leader b{font-size:13px}.leader small{display:block;font-size:10px;line-height:1.35;color:var(--muted)}.metric-row{display:grid;grid-template-columns:1fr 1fr;gap:9px;border-block:1px solid #e0e7ee;padding:9px 0}.metric-row>div+div{border-left:1px solid #e0e7ee;padding-left:9px}.metric-row label{font-size:9px;letter-spacing:.08em;font-weight:800;color:#708398;display:block}.metric-row strong{display:block}.rate{font-size:23px;letter-spacing:-.04em;line-height:1.1;margin:3px 0}.rate.compact{font-size:17px}.action{font-size:13px;line-height:1.2;min-height:30px;margin:4px 0}.metric-row small{font-size:9.5px;color:#6b8094;line-height:1.25;display:block}.stance{display:flex;align-items:center;justify-content:space-between;margin:8px 0 4px;font-size:11px;font-weight:800}.stance.dovish,.stance-pill.dovish{color:#14706d}.stance.hawkish,.stance-pill.hawkish{color:#a94a3f}.stance.balanced,.stance-pill.balanced{color:#6b5a19}.stance-scale{width:76px;height:10px;display:flex;gap:4px;position:relative}.stance-scale i{width:12px;height:5px;background:#d4dee7;border-radius:5px}.stance-scale b{position:absolute;width:8px;height:8px;border-radius:50%;background:currentColor;left:calc((var(--pos) - 1)*16px + 2px);top:-2px}.mandate,.watch{font-size:11px;line-height:1.35;margin:5px 0}.mandate b,.watch b{font-size:9px;letter-spacing:.09em;display:block;color:var(--accent);margin-bottom:1px}.watch{background:#f2f6fa;border-radius:6px;padding:6px 7px}.foot{display:flex;justify-content:space-between;align-items:center;margin-top:auto;gap:8px}.foot a{font-size:10px}.foot button{font-size:10px;padding:6px 8px;border-radius:6px;background:color-mix(in srgb,var(--accent) 10%,white);color:var(--accent);font-weight:800}a{color:#245995;text-underline-offset:2px}.section-head{display:flex;justify-content:space-between;align-items:end;gap:20px;margin:19px 0 10px}.section-head>p{font-size:12px;color:var(--muted);max-width:540px;margin:0}.compare-wrap{background:white;border:1px solid var(--line);border-radius:10px;overflow:auto}table{border-collapse:collapse;width:100%;min-width:1000px}th,td{padding:11px 12px;border-bottom:1px solid #e3e9ef;text-align:left;vertical-align:top;font-size:12px;line-height:1.35}thead th{font-size:9px;letter-spacing:.08em;color:#687d92;background:#f5f8fa}tbody th{font-size:14px}.table-icon{width:27px;height:27px;margin-right:7px;font-size:15px;vertical-align:middle}td small,tbody th small{display:block;font-size:10px;color:#6e8295;margin-top:3px;font-weight:400}.stance-pill{display:inline-block;border-radius:12px;padding:3px 7px;font-size:10px;font-weight:850;background:#eef3f7}.comparison-note{padding:10px 12px;margin-top:9px;background:#e4edf6;border-radius:7px;font-size:12px}.lesson-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:11px}.lesson-grid article,.terms{background:#fff;border:1px solid var(--line);border-radius:10px;padding:15px}.lesson-grid article>span{font-size:10px;color:#fff;background:var(--navy);padding:4px 6px;border-radius:4px}.lesson-grid h3,.terms h3{font-size:15px;margin:13px 0 5px}.lesson-grid p{font-size:12px;line-height:1.45;color:#536b80;min-height:69px}.lesson-grid b{font-size:11px}.terms{margin-top:11px}.terms>div{display:grid;grid-template-columns:repeat(3,1fr);gap:0 18px}.terms p{font-size:12px;border-top:1px solid #e4eaf0;padding:9px 0;margin:0}.terms p b,.terms p span{display:block}.terms p span{color:#60758a;margin-top:2px}footer{font-size:11px;color:#63788d;border-top:1px solid #d5dfe8;margin-top:20px;padding-top:12px}summary{cursor:pointer;font-weight:750}footer p{line-height:1.4}dialog{width:min(900px,94vw);max-height:91vh;overflow:auto;border:0;border-radius:14px;padding:24px;color:#14283d}dialog::backdrop{background:#07182ab5}.dialog-head{display:flex;justify-content:space-between}.dialog-head h2{margin:0;font-size:23px}.close{background:#edf2f6;border-radius:7px;padding:8px 11px}.profile{display:flex;gap:15px;align-items:flex-start;margin:18px 0;background:#f3f7fa;padding:14px;border-radius:9px}.portrait.large{width:82px;height:92px}.profile h3{margin:0;font-size:17px}.profile p{font-size:13px;line-height:1.45;margin:4px 0}.refs{font-size:11px}.detail-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}.detail-grid>section,.facts,.so-what{border:1px solid #dbe4ec;border-radius:9px;padding:14px}.detail-grid h3,.facts h3,.so-what h3,.news-head h3{font-size:14px;margin:0 0 8px}dl{margin:0}dl>div{display:grid;grid-template-columns:105px 1fr;border-top:1px solid #e4eaf0;padding:7px 0;font-size:12px}dt{color:#61768a}dd{margin:0}.detail-grid p,.so-what p{font-size:13px;line-height:1.45}.detail-grid small{font-size:10px;color:#6d8092}.so-what{margin-top:12px;border-left:4px solid #24706c;background:#f3faf8}.facts{margin-top:12px}.facts ol{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin:0;padding-left:20px}.facts li{font-size:12px;line-height:1.45}.news-head{display:flex;justify-content:space-between;margin-top:18px}.news-head span{font-size:10px;color:#6a7f93}.news{border-top:1px solid #dfe6ed;padding:9px 0}.news small{display:block;font-size:10px;color:#687d91}.news a{font-size:13px;font-weight:750;text-decoration:none}.news p{font-size:12px;margin:3px 0}.reference-box{font-size:11px;background:#eef3f7;padding:10px;border-radius:7px}.reference-box b{margin-right:10px}@media(min-width:1280px){#regions{display:grid;grid-template-columns:3fr 2fr 2fr;gap:12px}.region{margin-top:17px}.region[data-region="Asia"] .cards{grid-template-columns:repeat(3,minmax(250px,1fr))}.region[data-region="Europe"] .cards,.region[data-region="Americas"] .cards{grid-template-columns:1fr}.card{height:400px}}@media(max-width:980px){.cards{grid-template-columns:repeat(2,1fr)}.lesson-grid{grid-template-columns:repeat(2,1fr)}.terms>div{grid-template-columns:repeat(2,1fr)}}@media(max-width:620px){header>span:last-child{display:none}main{padding:16px}.hero{display:block}.refresh{text-align:left;margin-top:12px}.view-tabs{overflow:auto}.notice{align-items:flex-start}.cards,.lesson-grid,.terms>div,.detail-grid,.facts ol{grid-template-columns:1fr}.card{height:auto;min-height:390px}.section-head{display:block}.section-head>p{margin-top:5px}.profile{display:block}.portrait.large{margin-bottom:8px}}
+</style></head><body><header><span class="brand">CB<span> / CENTRAL BANK WATCH</span></span><span>CAYLIN · CUHK MBA · FINA6010E</span></header><main><section class="hero"><div><p class="eyebrow">MONETARY POLICY COMMAND CENTRE</p><h1>Seven banks. One comparison frame.</h1><p>Compare the policy lever, stance, transmission channel and people behind each decision.</p></div><div class="refresh"><button id="refresh">↻ Refresh sources</button><p id="checked" role="status">Verified baseline · 27 September 2026 HKT</p></div></section><nav class="view-tabs" aria-label="Dashboard views"><button class="tab active" data-view="cards">▦ Bank cards</button><button class="tab" data-view="compare">⇄ Compare all</button><button class="tab" data-view="learn">◎ Learning mode</button></nav><aside class="notice"><span>●</span><strong>Dated policy snapshot</strong><span>Rates and committee lean are tied to the cited decision date. “Hawkish” means more concerned about inflation; “dovish” means more concerned about growth or employment.</span></aside><section id="cards-view" class="view active"><div id="regions"></div></section><section id="compare-view" class="view"><div id="comparison"></div></section><section id="learn-view" class="view"><div id="learning"></div></section><footer><details><summary>Method, limitations and sources</summary><p>Rates are verified against dated official publications. Refresh checks official current-rate pages and available news feeds; a failed check keeps the last verified value. Leadership biographies, committee stance and interpretation are editorial research dated 27 September 2026.</p><p>Commercial-bank prime rates are not central-bank policy rates. Singapore instead manages the S$NEER exchange-rate band. Stance labels summarise recent votes and communication; they are not permanent descriptions of individuals or institutions.</p></details><p>For learning and classroom discussion · Every card names and links its references.</p></footer></main><dialog id="detail"><div id="detail-body"></div></dialog><script>const BANKS=[
+  {
+    "id": "pboc",
+    "region": "Asia",
+    "country": "China",
+    "name": "People's Bank of China",
+    "abbr": "PBOC",
+    "leader": {
+      "bank": "People's Bank of China",
+      "name": "Pan Gongsheng",
+      "title": "Governor",
+      "source": "https://www.pbc.gov.cn/en/3688066/3688083/2025080817513970488/index.html",
+      "image": "https://www.pbc.gov.cn/en/fileDir/resource/cms/2024/07/img_pc_site/pangongsheng.jpg",
+      "tenure": "Governor since 2023",
+      "background": "A veteran central banker and foreign-exchange regulator, Pan previously led SAFE and served as a PBOC deputy governor.",
+      "sourceName": "PBOC leadership profile"
+    },
+    "rate": "1.40%",
+    "rateLabel": "7-day reverse repo",
+    "rateDate": "18 Sep 2026 operation",
+    "prime": "3.00% / 3.50%",
+    "primeLabel": "1Y / 5Y+ loan prime rate",
+    "primeDate": "20 Sep 2026 fixing",
+    "mandate": "Maintain currency stability and thereby support economic growth.",
+    "move": "Hold · policy rate / lending benchmarks",
+    "source": "https://english.www.gov.cn/archive/statistics/202609/20/content_WS6aaf80b4c6d00ca5f9a0d458.html",
+    "mandateUrl": "https://www.rba.gov.au/publications/bulletin/2024/apr/chinas-monetary-policy-framework-and-financial-market-transmission.html",
+    "facts": [
+      "The 7-day reverse repo is a key policy-rate signal; the reserve requirement ratio also affects liquidity.",
+      "LPR is a lending benchmark based on bank quotations, not the PBOC’s own overnight policy rate.",
+      "The 5-year-plus LPR is important for mortgage pricing; both LPR tenors were unchanged at the 20 September fixing."
+    ],
+    "soWhat": "Stable benchmark rates can coexist with liquidity injections. Watch the price of liquidity separately from the quantity supplied.",
+    "news": [
+      {
+        "title": "China keeps loan prime rates unchanged",
+        "date": "20 Sep 2026",
+        "url": "https://english.www.gov.cn/archive/statistics/202609/20/content_WS6aaf80b4c6d00ca5f9a0d458.html",
+        "summary": "The official government report confirms unchanged 1-year and 5-year-plus lending benchmarks.",
+        "sourceName": "People's Bank of China / State Council"
+      },
+      {
+        "title": "7-day operation remains at 1.40%",
+        "date": "18 Sep 2026",
+        "url": "https://www.newsquawk.com/headlines/pboc-injects-cny-4633bln-via-7-day-reverse-repos-at-140",
+        "summary": "The reported operation adds liquidity without changing the policy rate.",
+        "sourceName": "People's Bank of China / State Council"
+      }
+    ],
+    "primeSource": "https://english.www.gov.cn/archive/statistics/202609/20/content_WS6aaf80b4c6d00ca5f9a0d458.html",
+    "icon": "🇨🇳",
+    "decision": "Hold · targeted easing bias",
+    "stanceScore": -1,
+    "sourceName": "People's Bank of China / State Council",
+    "transmission": "Liquidity operations, bank funding, LPRs and the renminbi.",
+    "watch": "Credit demand, property support, LPR fixings and reserve-ratio signals.",
+    "teamRead": "Traditionally growth-sensitive and state-coordinated; the present signal is a dovish tilt through liquidity support rather than a broad rate cut.",
+    "stanceNote": "Benchmarks were held while liquidity support remained active. That mix reads as cautiously accommodative."
+  },
+  {
+    "id": "rbi",
+    "region": "Asia",
+    "country": "India",
+    "name": "Reserve Bank of India",
+    "abbr": "RBI",
+    "leader": {
+      "bank": "Reserve Bank of India",
+      "name": "Sanjay Malhotra",
+      "title": "Governor",
+      "source": "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=59281",
+      "image": "https://www.rbi.org.in/scripts/images/SanjayMalhotra11122024_new.jpg",
+      "tenure": "Governor since December 2024",
+      "background": "Sanjay Malhotra is a career civil servant who previously served as India’s Revenue Secretary and held senior finance and power-sector roles.",
+      "sourceName": "RBI appointment release"
+    },
+    "rate": "5.25%",
+    "rateLabel": "Policy repo rate",
+    "rateDate": "5 Aug 2026 decision",
+    "prime": "Bank-specific",
+    "primeLabel": "No single national prime rate",
+    "primeDate": "Base rates shown in details",
+    "mandate": "Maintain price stability while keeping growth in mind.",
+    "move": "Hold · neutral stance",
+    "source": "https://www.rbi.org.in/",
+    "mandateUrl": "https://rbi.org.in/scripts/PublicationsView.aspx?Id=18086",
+    "facts": [
+      "The MPC sets the repo rate; the standing deposit facility is 5.00% and MSF / Bank Rate 5.50% in the verified snapshot.",
+      "RBI lists banks’ base rates at 8.40–10.00% and overnight MCLR at 7.80–8.00%; neither is one national prime rate.",
+      "Bank loan pricing may use external benchmarks plus borrower-specific spreads."
+    ],
+    "soWhat": "An unchanged repo rate does not make every loan unchanged: reset dates, spreads and funding costs affect transmission.",
+    "news": [
+      {
+        "title": "MPC leaves repo rate unchanged",
+        "date": "5 Aug 2026",
+        "url": "https://trackrbi.com/publication/24369/resolution-of-the-monetary-policy-committee-mpc-august-03-to-05-2026",
+        "summary": "RBI resolution reproduced by Track RBI: unanimous hold at 5.25%.",
+        "sourceName": "Reserve Bank of India"
+      },
+      {
+        "title": "Current policy and lending-rate reference",
+        "date": "Checked 20 Sep 2026",
+        "url": "https://www.rbi.org.in/",
+        "summary": "Official table separates policy rates, base rates, MCLR and deposit rates.",
+        "sourceName": "Reserve Bank of India"
+      }
+    ],
+    "primeSource": "https://www.rbi.org.in/",
+    "icon": "🇮🇳",
+    "decision": "Hold · neutral stance",
+    "stanceScore": 0,
+    "sourceName": "Reserve Bank of India",
+    "transmission": "Repo-linked money-market rates, bank funding and loan benchmarks.",
+    "watch": "Food inflation, core inflation, growth momentum and liquidity conditions.",
+    "teamRead": "The MPC is data-dependent rather than structurally hawkish or dovish; its latest neutral stance balances inflation with growth.",
+    "stanceNote": "An unchanged repo rate and neutral language imply no strong directional bias."
+  },
+  {
+    "id": "mas",
+    "region": "Asia",
+    "country": "Singapore",
+    "name": "Monetary Authority of Singapore",
+    "abbr": "MAS",
+    "leader": {
+      "bank": "Monetary Authority of Singapore",
+      "name": "Chia Der Jiun",
+      "title": "Managing Director",
+      "source": "https://www.sgdi.gov.sg/ministries/pmo/statutory-boards/mas/departments/mdo",
+      "imageSource": "https://www.fintechfestival.sg/speakers?speaker=spkr7050-chia-der-jiun",
+      "image": "https://www.fintechfestival.sg/hs-fs/hubfs/speaker-sff-2026/beaQKqB7IXt_AaLg8RniL1TF6t2_0fAV0qTROWURlUg.jpg?height=225&name=beaQKqB7IXt_AaLg8RniL1TF6t2_0fAV0qTROWURlUg.jpg&width=225",
+      "chairman": "Gan Kim Yong",
+      "chairmanSource": "https://www.pmo.gov.sg/about-us/the-cabinet/mr-gan-kim-yong/",
+      "tenure": "Managing Director since January 2024",
+      "background": "Chia Der Jiun previously served as Permanent Secretary at Singapore’s Ministry of Manpower and held senior roles at MAS, the Ministry of Finance and the Public Service Division.",
+      "sourceName": "Singapore Government Directory"
+    },
+    "rate": "S$NEER band",
+    "rateLabel": "Exchange-rate policy",
+    "rateDate": "27 Jul 2026 decision",
+    "prime": "Bank-specific",
+    "primeLabel": "Prime lending rates",
+    "primeDate": "Not set by MAS",
+    "mandate": "Maintain price stability conducive to sustainable economic growth.",
+    "move": "Tighten · very slight slope increase",
+    "source": "https://www.mas.gov.sg/news/monetary-policy-statements/2026/mas-monetary-policy-statement-july-2026",
+    "mandateUrl": "https://sso.agc.gov.sg/Act/MASA1970?ProvIds=pr4-",
+    "facts": [
+      "MAS manages the Singapore dollar against a trade-weighted basket within a policy band.",
+      "It adjusts the band’s slope, width or centre; the precise parameters are not publicly disclosed.",
+      "SORA is a market overnight-rate benchmark, not an MAS policy target. Board chairman: Gan Kim Yong; managing director: Chia Der Jiun."
+    ],
+    "soWhat": "Faster currency appreciation can restrain imported inflation, while affecting exporters and the translation of overseas earnings.",
+    "news": [
+      {
+        "title": "MAS slightly steepens appreciation path",
+        "date": "27 Jul 2026",
+        "url": "https://www.mas.gov.sg/news/monetary-policy-statements/2026/mas-monetary-policy-statement-july-2026",
+        "summary": "Policy tightening works through the exchange rate rather than a numerical policy-rate increase.",
+        "sourceName": "Monetary Authority of Singapore"
+      },
+      {
+        "title": "What July’s calibrated tightening means",
+        "date": "27 Jul 2026",
+        "url": "https://www.dbs.com.sg/treasures-private-client/aics/economics/templatedata/article/generic/data/en/GR/072026/260727_insights_singapore.xml",
+        "summary": "DBS examines the small increase in the currency band’s slope.",
+        "sourceName": "Monetary Authority of Singapore"
+      }
+    ],
+    "primeSource": "https://sso.agc.gov.sg/Act/MASA1970?ProvIds=pr4-",
+    "icon": "🇸🇬",
+    "decision": "Tighten · slightly steeper slope",
+    "stanceScore": 1,
+    "sourceName": "Monetary Authority of Singapore",
+    "transmission": "A managed trade-weighted exchange rate changes imported inflation and competitiveness.",
+    "watch": "Core inflation, imported costs, growth and the S$NEER band’s slope.",
+    "teamRead": "MAS is pragmatic and forecast-led. The latest calibrated steepening gives the team a hawkish tilt without using an interest-rate target.",
+    "stanceNote": "A slightly faster appreciation path is a measured tightening signal."
+  },
+  {
+    "id": "boe",
+    "region": "Europe",
+    "country": "United Kingdom",
+    "name": "Bank of England",
+    "abbr": "BOE",
+    "leader": {
+      "bank": "Bank of England",
+      "name": "Andrew Bailey",
+      "title": "Governor",
+      "source": "https://www.bankofengland.co.uk/about/people/andrew-bailey/biography",
+      "image": "https://www.bankofengland.co.uk/-/media/boe/images/people/andrew-bailey/andrew-bailey-front.jpg?h=515&hash=C0338A66BD70CE3D996DB0EA80350841&iar=0&w=521",
+      "tenure": "Governor since March 2020",
+      "background": "Andrew Bailey previously led the UK Financial Conduct Authority and served as the Bank’s Deputy Governor for prudential regulation and chief cashier.",
+      "sourceName": "Bank of England biography"
+    },
+    "rate": "3.75%",
+    "rateLabel": "Bank Rate",
+    "rateDate": "17 Sep 2026 decision",
+    "prime": "No single rate",
+    "primeLabel": "Bank lending / prime rates",
+    "primeDate": "Lender-specific",
+    "mandate": "Target 2% CPI inflation; subject to that, support government economic policy.",
+    "move": "Hold · 6–3 vote",
+    "source": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/september-2026",
+    "mandateUrl": "https://www.bankofengland.co.uk/monetary-policy/inflation",
+    "facts": [
+      "The nine-member MPC decides Bank Rate. Three members preferred a 25 bp increase in September.",
+      "Bank Rate influences money-market and bank funding costs; retail mortgage rates also depend on expected future rates.",
+      "The UK has no single central-bank-set prime lending rate."
+    ],
+    "soWhat": "A hold can still send a tightening signal. Businesses should watch the vote split and inflation outlook, not just the unchanged headline rate.",
+    "news": [
+      {
+        "title": "Bank Rate held at 3.75%",
+        "date": "17 Sep 2026",
+        "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/september-2026",
+        "summary": "The MPC kept the rate unchanged, with three votes for an increase.",
+        "sourceName": "Bank of England"
+      },
+      {
+        "title": "Energy costs keep inflation risks in focus",
+        "date": "17 Sep 2026",
+        "url": "https://apnews.com/article/9d2abfcda73347ccb1a19dd39f1c06c8",
+        "summary": "Reporting explains why the Bank remains alert to persistent price pressures.",
+        "sourceName": "Bank of England"
+      }
+    ],
+    "primeSource": "https://www.bankofengland.co.uk/monetary-policy/inflation",
+    "icon": "🇬🇧",
+    "decision": "Hold · 6–3, three sought hike",
+    "stanceScore": 1,
+    "sourceName": "Bank of England",
+    "transmission": "Bank Rate and expectations feed into sterling, gilt yields, deposits and mortgages.",
+    "watch": "Energy prices, wage setting, services inflation and second-round effects.",
+    "teamRead": "The MPC is divided: the majority held, while three members preferred a hike. The collective signal is a hawkish tilt.",
+    "stanceNote": "Holding amid three votes for a rise and stronger inflation warnings is hawkish relative to a simple hold."
+  },
+  {
+    "id": "ecb",
+    "region": "Europe",
+    "country": "Euro area",
+    "name": "European Central Bank",
+    "abbr": "ECB",
+    "leader": {
+      "bank": "European Central Bank",
+      "name": "Christine Lagarde",
+      "title": "President",
+      "source": "https://www.ecb.europa.eu/ecb/decisions/html/cvlagarde.en.html",
+      "image": "https://www.ecb.europa.eu/ecb/orga/decisions/eb/shared/img/cv_lagarde_portrait.jpg",
+      "tenure": "President since November 2019",
+      "background": "Christine Lagarde previously led the IMF and served as France’s finance minister; she is a lawyer by training rather than a career monetary economist.",
+      "sourceName": "ECB executive biography"
+    },
+    "rate": "2.50%",
+    "rateLabel": "Deposit facility rate",
+    "rateDate": "Effective 16 Sep 2026",
+    "prime": "No single rate",
+    "primeLabel": "Euro-area prime lending rate",
+    "primeDate": "Varies by bank / country",
+    "mandate": "Price stability: 2% inflation over the medium term.",
+    "move": "Raise · +25 bp",
+    "source": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260910~314e508016.en.html",
+    "mandateUrl": "https://www.ecb.europa.eu/mopo/strategy/pricestab/html/index.en.html",
+    "facts": [
+      "The ECB sets policy for the euro area—not all EU countries.",
+      "Main refinancing rate: 2.65%; marginal lending facility: 2.90%, effective 16 September.",
+      "The deposit facility rate steers policy; commercial lending rates differ across banks and countries."
+    ],
+    "soWhat": "Higher euro rates can increase financing costs and affect the euro. Transmission can differ between member economies.",
+    "news": [
+      {
+        "title": "ECB raises its three key rates",
+        "date": "10 Sep 2026",
+        "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260910~314e508016.en.html",
+        "summary": "The deposit rate increases to 2.50%, effective 16 September.",
+        "sourceName": "European Central Bank"
+      },
+      {
+        "title": "Why a 2% medium-term target?",
+        "date": "Policy explainer",
+        "url": "https://www.ecb.europa.eu/mopo/strategy/pricestab/html/index.en.html",
+        "summary": "Understand the symmetric inflation objective behind rate decisions.",
+        "sourceName": "European Central Bank"
+      }
+    ],
+    "primeSource": "https://www.ecb.europa.eu/mopo/strategy/pricestab/html/index.en.html",
+    "icon": "🇪🇺",
+    "decision": "Raise · +25 bp",
+    "stanceScore": 2,
+    "sourceName": "European Central Bank",
+    "transmission": "Policy rates move euro money markets, bank funding, sovereign yields and the euro.",
+    "watch": "Wage growth, services inflation, energy prices and differences in transmission across member states.",
+    "teamRead": "The Governing Council’s latest rate increase and inflation language make the current team signal hawkish, though decisions remain meeting-by-meeting.",
+    "stanceNote": "A 25 bp increase is an unambiguous tightening action."
+  },
+  {
+    "id": "fed",
+    "region": "Americas",
+    "country": "United States",
+    "name": "US Federal Reserve",
+    "abbr": "FED",
+    "leader": {
+      "bank": "US Federal Reserve",
+      "name": "Kevin Warsh",
+      "title": "Chairman",
+      "source": "https://www.federalreserve.gov/aboutthefed/bios/board/warsh.htm",
+      "image": "https://www.federalreserve.gov/aboutthefed/images/chairman-warsh-130x168.png",
+      "tenure": "Chairman in 2026",
+      "background": "Kevin Warsh previously served as a Federal Reserve governor and worked in investment banking and economic policy. His official testimony stresses price stability and policy credibility.",
+      "sourceName": "Federal Reserve biography"
+    },
+    "rate": "3.75–4.00%",
+    "rateLabel": "Federal funds target range",
+    "rateDate": "Effective 17 Sep 2026",
+    "prime": "7.00%",
+    "primeLabel": "Bank prime loan rate",
+    "primeDate": "17 Sep · H.15 observation",
+    "mandate": "Maximum employment and stable prices; 2% longer-run PCE inflation goal.",
+    "move": "Raise · +25 bp",
+    "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+    "mandateUrl": "https://www.federalreserve.gov/monetarypolicy/monetary-policy-what-are-its-goals-how-does-it-work.htm",
+    "facts": [
+      "The FOMC sets a target range; the effective federal funds rate is an observed market rate.",
+      "Prime is a commercial-bank lending benchmark, not the Fed’s policy rate.",
+      "The September 18 H.15 release records a 7.00% prime rate for September 17."
+    ],
+    "soWhat": "Tighter dollar funding can affect global borrowers, equity valuations and exchange rates, not only US households.",
+    "news": [
+      {
+        "title": "Fed raises its target range",
+        "date": "16 Sep 2026",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+        "summary": "The FOMC raises the range by 25 bp to 3.75–4.00%.",
+        "sourceName": "Federal Reserve Board"
+      },
+      {
+        "title": "Prime rate rises to 7.00%",
+        "date": "18 Sep 2026 release",
+        "url": "https://www.federalreserve.gov/releases/h15/",
+        "summary": "The official release separates prime lending, effective fed funds and Treasury yields.",
+        "sourceName": "Federal Reserve Board"
+      }
+    ],
+    "primeSource": "https://www.federalreserve.gov/releases/h15/",
+    "icon": "🇺🇸",
+    "decision": "Raise · +25 bp, unanimous",
+    "stanceScore": 2,
+    "sourceName": "Federal Reserve Board",
+    "transmission": "Fed funds expectations move the dollar, Treasury yields, credit spreads and bank prime rates globally.",
+    "watch": "Core inflation, payrolls, unemployment, demand resilience and inflation expectations.",
+    "teamRead": "The 2026 FOMC includes varied regional and Board views, but its unanimous September hike makes the current collective signal hawkish.",
+    "stanceNote": "A unanimous increase to support a faster return to 2% inflation is clearly hawkish."
+  },
+  {
+    "id": "boc",
+    "region": "Americas",
+    "country": "Canada",
+    "name": "Bank of Canada",
+    "abbr": "BOC",
+    "leader": {
+      "bank": "Bank of Canada",
+      "name": "Tiff Macklem",
+      "title": "Governor",
+      "source": "https://www.bankofcanada.ca/profile/tiff-macklem/",
+      "image": "https://www.bankofcanada.ca/wp-content/uploads/2014/02/tiff-macklem-250x250.jpg",
+      "tenure": "Governor since June 2020",
+      "background": "Tiff Macklem previously served as the Bank’s senior deputy governor and as dean of the Rotman School of Management; he also worked at Canada’s Department of Finance.",
+      "sourceName": "Bank of Canada profile"
+    },
+    "rate": "2.25%",
+    "rateLabel": "Overnight rate target",
+    "rateDate": "2 Sep 2026 decision",
+    "prime": "4.45%",
+    "primeLabel": "Major-bank prime rate",
+    "primeDate": "16 Sep 2026 weekly observation",
+    "mandate": "Target 2% inflation within a 1–3% range; use flexibility to support sustainable employment.",
+    "move": "Hold · unchanged",
+    "source": "https://www.bankofcanada.ca/2026/09/fad-press-release-2026-09-02/",
+    "mandateUrl": "https://www.bankofcanada.ca/core-functions/monetary-policy/",
+    "facts": [
+      "The overnight target differs from Bank Rate (2.50%) and the deposit rate (2.20%).",
+      "Each commercial bank sets its prime rate; the Bank of Canada publishes a major-bank reference.",
+      "Policy decisions weigh both inflation pressure and economic weakness."
+    ],
+    "soWhat": "A stable policy rate need not mean stable financial conditions: trade uncertainty and credit spreads can still affect business investment.",
+    "news": [
+      {
+        "title": "Bank of Canada holds at 2.25%",
+        "date": "2 Sep 2026",
+        "url": "https://www.bankofcanada.ca/2026/09/fad-press-release-2026-09-02/",
+        "summary": "The Bank leaves its overnight target unchanged.",
+        "sourceName": "Bank of Canada"
+      },
+      {
+        "title": "Deliberations highlight trade and inflation risks",
+        "date": "16 Sep 2026",
+        "url": "https://www.bankofcanada.ca/2026/09/summary-of-governing-council-deliberations-fixed-announcement-date-of-september-2-2026/",
+        "summary": "The discussion explains the balance between growth risks and inflation.",
+        "sourceName": "Bank of Canada"
+      }
+    ],
+    "primeSource": "https://www.bankofcanada.ca/rates/banking-and-financial-statistics/posted-interest-rates-offered-by-chartered-banks/",
+    "icon": "🇨🇦",
+    "decision": "Hold · balanced risk assessment",
+    "stanceScore": 0,
+    "sourceName": "Bank of Canada",
+    "transmission": "The overnight target influences Canadian money markets, bank prime rates, mortgages and the Canadian dollar.",
+    "watch": "Underlying inflation, household demand, trade uncertainty and labor-market slack.",
+    "teamRead": "The Governing Council balances inflation risk against economic weakness. The latest hold reads as balanced rather than strongly hawkish or dovish.",
+    "stanceNote": "A hold with two-sided risks gives little directional conviction."
+  }
+]
+;let openId=null,busy=false;const $=s=>document.querySelector(s),esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const link=(u,t)=>`<a href="${esc(u)}" target="_blank" rel="noopener noreferrer">${esc(t)} ↗</a>`;const hkt=d=>new Date(d).toLocaleString('en-GB',{timeZone:'Asia/Hong_Kong',hour12:false})+' HKT';
+const stanceClass=s=>s<0?'dovish':s>0?'hawkish':'balanced';const stanceName=s=>s<=-2?'Dovish':s===-1?'Dovish tilt':s===1?'Hawkish tilt':s>=2?'Hawkish':'Balanced';
+function card(b){return `<article class="card" data-bank="${b.id}"><div class="card-top"><span class="bank-icon" aria-hidden="true">${b.icon}</span><div class="bank-title"><span>${esc(b.country)}</span><h3>${esc(b.name)}</h3></div><span class="abbr">${b.abbr}</span></div><div class="leader"><img class="portrait" src="${esc(b.leader.image)}" alt="${esc(b.leader.name)}" loading="lazy" referrerpolicy="no-referrer"><div><b>${esc(b.leader.name)}</b><small>${esc(b.leader.title)}</small><small>${esc(b.leader.tenure||'Current officeholder')}</small></div></div><div class="metric-row"><div><label>POLICY LEVER</label><strong class="rate ${b.rate.length>11?'compact':''}">${esc(b.rate)}</strong><small>${esc(b.rateLabel)}</small></div><div><label>LATEST ACTION</label><strong class="action">${esc(b.decision||b.move)}</strong><small>${esc(b.rateDate)}</small></div></div><div class="stance ${stanceClass(b.stanceScore)}"><span>${stanceName(b.stanceScore)}</span><div class="stance-scale" aria-label="Stance: ${stanceName(b.stanceScore)}"><i></i><i></i><i></i><i></i><i></i><b style="--pos:${b.stanceScore+3}"></b></div></div><p class="mandate"><b>Mandate</b>${esc(b.mandate)}</p><p class="watch"><b>WATCH</b>${esc(b.watch)}</p><div class="foot">${link(b.source,b.sourceName||'Official policy')}<button data-open="${b.id}">Profile & news</button></div></article>`}
+function renderCards(){$('#regions').innerHTML=['Asia','Europe','Americas'].map(region=>`<section class="region" data-region="${region}"><div class="region-title"><h2>${region}</h2><span>${BANKS.filter(b=>b.region===region).length} banks</span></div><div class="cards">${BANKS.filter(b=>b.region===region).map(card).join('')}</div></section>`).join('')}
+function renderCompare(){$('#comparison').innerHTML=`<div class="section-head"><div><p class="eyebrow">LIKE-FOR-LIKE VIEW</p><h2>Policy comparison matrix</h2></div><p>Read across a row. Rate levels alone are not comparable because mandates and operating frameworks differ.</p></div><div class="compare-wrap"><table><thead><tr><th>Bank</th><th>Policy lever</th><th>Latest action</th><th>Committee signal</th><th>Transmission</th><th>What to watch</th></tr></thead><tbody>${BANKS.map(b=>`<tr><th><span class="table-icon">${b.icon}</span>${b.abbr}<small>${esc(b.country)}</small></th><td><b>${esc(b.rate)}</b><small>${esc(b.rateLabel)}</small></td><td>${esc(b.decision||b.move)}<small>${esc(b.rateDate)}</small></td><td><span class="stance-pill ${stanceClass(b.stanceScore)}">${stanceName(b.stanceScore)}</span><small>${esc(b.teamRead)}</small></td><td>${esc(b.transmission)}</td><td>${esc(b.watch)}</td></tr>`).join('')}</tbody></table></div><div class="comparison-note"><b>Classroom shortcut:</b> compare the direction and message first; compare numerical rate levels only after accounting for inflation, neutral-rate estimates and the policy framework.</div>`}
+function renderLearning(){$('#learning').innerHTML=`<div class="section-head"><div><p class="eyebrow">FINA6010E LEARNING LENS</p><h2>Turn seven decisions into one market story</h2></div><p>Use these questions before reading headlines.</p></div><div class="lesson-grid"><article><span>01</span><h3>What is the lever?</h3><p>Most banks set a short-term interest rate. MAS manages the Singapore dollar’s trade-weighted exchange-rate band.</p><b>Ask:</b> Is policy working through borrowing costs, liquidity or the currency?</article><article><span>02</span><h3>What changed?</h3><p>A hold can still be hawkish if votes or guidance point to future tightening. A cut can be cautious rather than fully dovish.</p><b>Ask:</b> Did the rate, vote split or language change?</article><article><span>03</span><h3>Why does it matter?</h3><p>Policy travels through bank funding, bond yields, currencies, asset values, credit demand and expectations.</p><b>Ask:</b> Which channel reaches households and companies first?</article><article><span>04</span><h3>What would change the view?</h3><p>Inflation, wages, employment, growth, financial stability and exchange rates carry different weights across mandates.</p><b>Ask:</b> What data could make the next decision different?</article></div><div class="terms"><h3>Vocabulary desk</h3><div><p><b>Hawkish 鷹派</b><span>Favors tighter policy to contain inflation.</span></p><p><b>Dovish 鴿派</b><span>Favors easier policy to support growth or jobs.</span></p><p><b>Transmission 傳導</b><span>How a policy decision changes financing and the real economy.</span></p><p><b>Neutral rate 中性利率</b><span>A theoretical rate that neither stimulates nor restrains demand.</span></p><p><b>Basis point 基點</b><span>0.01 percentage point; 25 bp equals 0.25 percentage point.</span></p><p><b>Forward guidance 前瞻指引</b><span>Signals about the likely future path of policy.</span></p></div></div>`}
+function detail(id){openId=id;const b=BANKS.find(x=>x.id===id);$('#detail-body').innerHTML=`<div class="dialog-head"><div><p class="eyebrow">${b.icon} ${esc(b.region)} / ${esc(b.country)}</p><h2>${esc(b.name)}</h2></div><button class="close" data-close aria-label="Close">✕</button></div><div class="profile"><img class="portrait large" src="${esc(b.leader.image)}" alt="${esc(b.leader.name)}" referrerpolicy="no-referrer"><div><h3>${esc(b.leader.name)}</h3><p>${esc(b.leader.title)} · ${esc(b.leader.tenure||'Current officeholder')}</p><p>${esc(b.leader.background)}</p><div class="refs">${link(b.leader.source,b.leader.sourceName||'Official biography')} · ${link(b.leader.imageSource||b.leader.source,'Portrait')}</div></div></div><div class="detail-grid"><section><h3>Policy dashboard</h3><dl><div><dt>Lever</dt><dd><b>${esc(b.rate)}</b> · ${esc(b.rateLabel)}</dd></div><div><dt>Latest action</dt><dd>${esc(b.decision||b.move)} · ${esc(b.rateDate)}</dd></div><div><dt>Lending reference</dt><dd>${esc(b.prime)} · ${esc(b.primeLabel)}</dd></div><div><dt>Transmission</dt><dd>${esc(b.transmission)}</dd></div></dl>${link(b.source,b.sourceName||'Official policy decision')}</section><section><h3>Committee read</h3><span class="stance-pill ${stanceClass(b.stanceScore)}">${stanceName(b.stanceScore)}</span><p>${esc(b.stanceNote)}</p><p><b>Team context:</b> ${esc(b.teamRead)}</p><small>Interpretation dated 27 Sep 2026; committees are not permanently hawkish or dovish.</small></section></div><section class="so-what"><h3>So what?</h3><p>${esc(b.soWhat)}</p><b>Next learning signal:</b> ${esc(b.watch)}</section><section class="facts"><h3>Three things to know</h3><ol>${b.facts.map(f=>`<li>${esc(f)}</li>`).join('')}</ol></section><section><div class="news-head"><h3>Related news & decisions</h3><span>Named sources</span></div>${(b.liveNews||[]).map(n=>`<article class="news"><small>${esc(n.date)} · Official feed</small>${link(n.url,n.title)}</article>`).join('')}${b.news.map(n=>`<article class="news"><small>${esc(n.date)} · ${esc(n.sourceName||b.sourceName||'Selected source')}</small>${link(n.url,n.title)}<p>${esc(n.summary)}</p></article>`).join('')}</section><div class="reference-box"><b>References</b>${link(b.mandateUrl,'Mandate')} · ${link(b.source,b.sourceName||'Policy decision')} · ${link(b.primeSource,'Lending-rate reference')} · ${link(b.leader.source,b.leader.sourceName||'Leadership biography')}</div>`;if(!$('#detail').open)$('#detail').showModal()}
+async function refresh(){if(busy)return;busy=true;$('#refresh').disabled=true;$('#refresh').textContent='Checking sources…';$('#checked').textContent='Checking official sources…';try{const r=await fetch('/api/refresh',{cache:'no-store'});if(!r.ok)throw Error();const d=await r.json();let updated=0;for(const u of d.banks||[]){const b=BANKS.find(x=>x.id===u.id);if(!b)continue;if(u.rate){b.rate=u.rate;b.rateDate=u.rateDate;b.source=u.rateSource;updated++}if(u.prime){b.prime=u.prime;b.primeDate=u.primeDate;b.primeSource=u.primeSource}b.check=u.message;if(u.news?.length)b.liveNews=u.news}renderCards();renderCompare();if($('#detail').open)detail(openId);$('#checked').textContent=`Checked ${hkt(d.checkedAt)} · ${updated}/7 policy sources refreshed`;}catch{$('#checked').textContent='Live check unavailable · dated verified values retained';}finally{busy=false;$('#refresh').disabled=false;$('#refresh').textContent='↻ Refresh sources'}}
+document.addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;if(b.dataset.view){document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('active',x===b));document.querySelectorAll('.view').forEach(x=>x.classList.toggle('active',x.id===b.dataset.view+'-view'))}if(b.dataset.open)detail(b.dataset.open);if(b.hasAttribute('data-close'))$('#detail').close();if(b.id==='refresh')refresh()});$('#detail').addEventListener('click',e=>{if(e.target===$('#detail'))e.target.close()});renderCards();renderCompare();renderLearning();
+</script></body></html>
