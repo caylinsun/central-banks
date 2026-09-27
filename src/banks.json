@@ -1,0 +1,411 @@
+[
+  {
+    "id": "pboc",
+    "region": "Asia",
+    "country": "China",
+    "name": "People's Bank of China",
+    "abbr": "PBOC",
+    "leader": {
+      "bank": "People's Bank of China",
+      "name": "Pan Gongsheng",
+      "title": "Governor",
+      "source": "https://www.pbc.gov.cn/en/3688066/3688083/2025080817513970488/index.html",
+      "image": "https://www.pbc.gov.cn/en/fileDir/resource/cms/2024/07/img_pc_site/pangongsheng.jpg",
+      "tenure": "Governor since 2023",
+      "background": "A veteran central banker and foreign-exchange regulator, Pan previously led SAFE and served as a PBOC deputy governor.",
+      "sourceName": "PBOC leadership profile"
+    },
+    "rate": "1.40%",
+    "rateLabel": "7-day reverse repo",
+    "rateDate": "18 Sep 2026 operation",
+    "prime": "3.00% / 3.50%",
+    "primeLabel": "1Y / 5Y+ loan prime rate",
+    "primeDate": "20 Sep 2026 fixing",
+    "mandate": "Maintain currency stability and thereby support economic growth.",
+    "move": "Hold · policy rate / lending benchmarks",
+    "source": "https://english.www.gov.cn/archive/statistics/202609/20/content_WS6aaf80b4c6d00ca5f9a0d458.html",
+    "mandateUrl": "https://www.rba.gov.au/publications/bulletin/2024/apr/chinas-monetary-policy-framework-and-financial-market-transmission.html",
+    "facts": [
+      "The 7-day reverse repo is a key policy-rate signal; the reserve requirement ratio also affects liquidity.",
+      "LPR is a lending benchmark based on bank quotations, not the PBOC’s own overnight policy rate.",
+      "The 5-year-plus LPR is important for mortgage pricing; both LPR tenors were unchanged at the 20 September fixing."
+    ],
+    "soWhat": "Stable benchmark rates can coexist with liquidity injections. Watch the price of liquidity separately from the quantity supplied.",
+    "news": [
+      {
+        "title": "China keeps loan prime rates unchanged",
+        "date": "20 Sep 2026",
+        "url": "https://english.www.gov.cn/archive/statistics/202609/20/content_WS6aaf80b4c6d00ca5f9a0d458.html",
+        "summary": "The official government report confirms unchanged 1-year and 5-year-plus lending benchmarks.",
+        "sourceName": "People's Bank of China / State Council"
+      },
+      {
+        "title": "7-day operation remains at 1.40%",
+        "date": "18 Sep 2026",
+        "url": "https://www.newsquawk.com/headlines/pboc-injects-cny-4633bln-via-7-day-reverse-repos-at-140",
+        "summary": "The reported operation adds liquidity without changing the policy rate.",
+        "sourceName": "People's Bank of China / State Council"
+      }
+    ],
+    "primeSource": "https://english.www.gov.cn/archive/statistics/202609/20/content_WS6aaf80b4c6d00ca5f9a0d458.html",
+    "icon": "🇨🇳",
+    "decision": "Hold · targeted easing bias",
+    "stanceScore": -1,
+    "sourceName": "People's Bank of China / State Council",
+    "transmission": "Liquidity operations, bank funding, LPRs and the renminbi.",
+    "watch": "Credit demand, property support, LPR fixings and reserve-ratio signals.",
+    "teamRead": "Traditionally growth-sensitive and state-coordinated; the present signal is a dovish tilt through liquidity support rather than a broad rate cut.",
+    "stanceNote": "Benchmarks were held while liquidity support remained active. That mix reads as cautiously accommodative."
+  },
+  {
+    "id": "rbi",
+    "region": "Asia",
+    "country": "India",
+    "name": "Reserve Bank of India",
+    "abbr": "RBI",
+    "leader": {
+      "bank": "Reserve Bank of India",
+      "name": "Sanjay Malhotra",
+      "title": "Governor",
+      "source": "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=59281",
+      "image": "https://www.rbi.org.in/scripts/images/SanjayMalhotra11122024_new.jpg",
+      "tenure": "Governor since December 2024",
+      "background": "Sanjay Malhotra is a career civil servant who previously served as India’s Revenue Secretary and held senior finance and power-sector roles.",
+      "sourceName": "RBI appointment release"
+    },
+    "rate": "5.25%",
+    "rateLabel": "Policy repo rate",
+    "rateDate": "5 Aug 2026 decision",
+    "prime": "Bank-specific",
+    "primeLabel": "No single national prime rate",
+    "primeDate": "Base rates shown in details",
+    "mandate": "Maintain price stability while keeping growth in mind.",
+    "move": "Hold · neutral stance",
+    "source": "https://www.rbi.org.in/",
+    "mandateUrl": "https://rbi.org.in/scripts/PublicationsView.aspx?Id=18086",
+    "facts": [
+      "The MPC sets the repo rate; the standing deposit facility is 5.00% and MSF / Bank Rate 5.50% in the verified snapshot.",
+      "RBI lists banks’ base rates at 8.40–10.00% and overnight MCLR at 7.80–8.00%; neither is one national prime rate.",
+      "Bank loan pricing may use external benchmarks plus borrower-specific spreads."
+    ],
+    "soWhat": "An unchanged repo rate does not make every loan unchanged: reset dates, spreads and funding costs affect transmission.",
+    "news": [
+      {
+        "title": "MPC leaves repo rate unchanged",
+        "date": "5 Aug 2026",
+        "url": "https://trackrbi.com/publication/24369/resolution-of-the-monetary-policy-committee-mpc-august-03-to-05-2026",
+        "summary": "RBI resolution reproduced by Track RBI: unanimous hold at 5.25%.",
+        "sourceName": "Reserve Bank of India"
+      },
+      {
+        "title": "Current policy and lending-rate reference",
+        "date": "Checked 20 Sep 2026",
+        "url": "https://www.rbi.org.in/",
+        "summary": "Official table separates policy rates, base rates, MCLR and deposit rates.",
+        "sourceName": "Reserve Bank of India"
+      }
+    ],
+    "primeSource": "https://www.rbi.org.in/",
+    "icon": "🇮🇳",
+    "decision": "Hold · neutral stance",
+    "stanceScore": 0,
+    "sourceName": "Reserve Bank of India",
+    "transmission": "Repo-linked money-market rates, bank funding and loan benchmarks.",
+    "watch": "Food inflation, core inflation, growth momentum and liquidity conditions.",
+    "teamRead": "The MPC is data-dependent rather than structurally hawkish or dovish; its latest neutral stance balances inflation with growth.",
+    "stanceNote": "An unchanged repo rate and neutral language imply no strong directional bias."
+  },
+  {
+    "id": "mas",
+    "region": "Asia",
+    "country": "Singapore",
+    "name": "Monetary Authority of Singapore",
+    "abbr": "MAS",
+    "leader": {
+      "bank": "Monetary Authority of Singapore",
+      "name": "Chia Der Jiun",
+      "title": "Managing Director",
+      "source": "https://www.sgdi.gov.sg/ministries/pmo/statutory-boards/mas/departments/mdo",
+      "imageSource": "https://www.fintechfestival.sg/speakers?speaker=spkr7050-chia-der-jiun",
+      "image": "https://www.fintechfestival.sg/hs-fs/hubfs/speaker-sff-2026/beaQKqB7IXt_AaLg8RniL1TF6t2_0fAV0qTROWURlUg.jpg?height=225&name=beaQKqB7IXt_AaLg8RniL1TF6t2_0fAV0qTROWURlUg.jpg&width=225",
+      "chairman": "Gan Kim Yong",
+      "chairmanSource": "https://www.pmo.gov.sg/about-us/the-cabinet/mr-gan-kim-yong/",
+      "tenure": "Managing Director since January 2024",
+      "background": "Chia Der Jiun previously served as Permanent Secretary at Singapore’s Ministry of Manpower and held senior roles at MAS, the Ministry of Finance and the Public Service Division.",
+      "sourceName": "Singapore Government Directory"
+    },
+    "rate": "S$NEER band",
+    "rateLabel": "Exchange-rate policy",
+    "rateDate": "27 Jul 2026 decision",
+    "prime": "Bank-specific",
+    "primeLabel": "Prime lending rates",
+    "primeDate": "Not set by MAS",
+    "mandate": "Maintain price stability conducive to sustainable economic growth.",
+    "move": "Tighten · very slight slope increase",
+    "source": "https://www.mas.gov.sg/news/monetary-policy-statements/2026/mas-monetary-policy-statement-july-2026",
+    "mandateUrl": "https://sso.agc.gov.sg/Act/MASA1970?ProvIds=pr4-",
+    "facts": [
+      "MAS manages the Singapore dollar against a trade-weighted basket within a policy band.",
+      "It adjusts the band’s slope, width or centre; the precise parameters are not publicly disclosed.",
+      "SORA is a market overnight-rate benchmark, not an MAS policy target. Board chairman: Gan Kim Yong; managing director: Chia Der Jiun."
+    ],
+    "soWhat": "Faster currency appreciation can restrain imported inflation, while affecting exporters and the translation of overseas earnings.",
+    "news": [
+      {
+        "title": "MAS slightly steepens appreciation path",
+        "date": "27 Jul 2026",
+        "url": "https://www.mas.gov.sg/news/monetary-policy-statements/2026/mas-monetary-policy-statement-july-2026",
+        "summary": "Policy tightening works through the exchange rate rather than a numerical policy-rate increase.",
+        "sourceName": "Monetary Authority of Singapore"
+      },
+      {
+        "title": "What July’s calibrated tightening means",
+        "date": "27 Jul 2026",
+        "url": "https://www.dbs.com.sg/treasures-private-client/aics/economics/templatedata/article/generic/data/en/GR/072026/260727_insights_singapore.xml",
+        "summary": "DBS examines the small increase in the currency band’s slope.",
+        "sourceName": "Monetary Authority of Singapore"
+      }
+    ],
+    "primeSource": "https://sso.agc.gov.sg/Act/MASA1970?ProvIds=pr4-",
+    "icon": "🇸🇬",
+    "decision": "Tighten · slightly steeper slope",
+    "stanceScore": 1,
+    "sourceName": "Monetary Authority of Singapore",
+    "transmission": "A managed trade-weighted exchange rate changes imported inflation and competitiveness.",
+    "watch": "Core inflation, imported costs, growth and the S$NEER band’s slope.",
+    "teamRead": "MAS is pragmatic and forecast-led. The latest calibrated steepening gives the team a hawkish tilt without using an interest-rate target.",
+    "stanceNote": "A slightly faster appreciation path is a measured tightening signal."
+  },
+  {
+    "id": "boe",
+    "region": "Europe",
+    "country": "United Kingdom",
+    "name": "Bank of England",
+    "abbr": "BOE",
+    "leader": {
+      "bank": "Bank of England",
+      "name": "Andrew Bailey",
+      "title": "Governor",
+      "source": "https://www.bankofengland.co.uk/about/people/andrew-bailey/biography",
+      "image": "https://www.bankofengland.co.uk/-/media/boe/images/people/andrew-bailey/andrew-bailey-front.jpg?h=515&hash=C0338A66BD70CE3D996DB0EA80350841&iar=0&w=521",
+      "tenure": "Governor since March 2020",
+      "background": "Andrew Bailey previously led the UK Financial Conduct Authority and served as the Bank’s Deputy Governor for prudential regulation and chief cashier.",
+      "sourceName": "Bank of England biography"
+    },
+    "rate": "3.75%",
+    "rateLabel": "Bank Rate",
+    "rateDate": "17 Sep 2026 decision",
+    "prime": "No single rate",
+    "primeLabel": "Bank lending / prime rates",
+    "primeDate": "Lender-specific",
+    "mandate": "Target 2% CPI inflation; subject to that, support government economic policy.",
+    "move": "Hold · 6–3 vote",
+    "source": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/september-2026",
+    "mandateUrl": "https://www.bankofengland.co.uk/monetary-policy/inflation",
+    "facts": [
+      "The nine-member MPC decides Bank Rate. Three members preferred a 25 bp increase in September.",
+      "Bank Rate influences money-market and bank funding costs; retail mortgage rates also depend on expected future rates.",
+      "The UK has no single central-bank-set prime lending rate."
+    ],
+    "soWhat": "A hold can still send a tightening signal. Businesses should watch the vote split and inflation outlook, not just the unchanged headline rate.",
+    "news": [
+      {
+        "title": "Bank Rate held at 3.75%",
+        "date": "17 Sep 2026",
+        "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/september-2026",
+        "summary": "The MPC kept the rate unchanged, with three votes for an increase.",
+        "sourceName": "Bank of England"
+      },
+      {
+        "title": "Energy costs keep inflation risks in focus",
+        "date": "17 Sep 2026",
+        "url": "https://apnews.com/article/9d2abfcda73347ccb1a19dd39f1c06c8",
+        "summary": "Reporting explains why the Bank remains alert to persistent price pressures.",
+        "sourceName": "Bank of England"
+      }
+    ],
+    "primeSource": "https://www.bankofengland.co.uk/monetary-policy/inflation",
+    "icon": "🇬🇧",
+    "decision": "Hold · 6–3, three sought hike",
+    "stanceScore": 1,
+    "sourceName": "Bank of England",
+    "transmission": "Bank Rate and expectations feed into sterling, gilt yields, deposits and mortgages.",
+    "watch": "Energy prices, wage setting, services inflation and second-round effects.",
+    "teamRead": "The MPC is divided: the majority held, while three members preferred a hike. The collective signal is a hawkish tilt.",
+    "stanceNote": "Holding amid three votes for a rise and stronger inflation warnings is hawkish relative to a simple hold."
+  },
+  {
+    "id": "ecb",
+    "region": "Europe",
+    "country": "Euro area",
+    "name": "European Central Bank",
+    "abbr": "ECB",
+    "leader": {
+      "bank": "European Central Bank",
+      "name": "Christine Lagarde",
+      "title": "President",
+      "source": "https://www.ecb.europa.eu/ecb/decisions/html/cvlagarde.en.html",
+      "image": "https://www.ecb.europa.eu/ecb/orga/decisions/eb/shared/img/cv_lagarde_portrait.jpg",
+      "tenure": "President since November 2019",
+      "background": "Christine Lagarde previously led the IMF and served as France’s finance minister; she is a lawyer by training rather than a career monetary economist.",
+      "sourceName": "ECB executive biography"
+    },
+    "rate": "2.50%",
+    "rateLabel": "Deposit facility rate",
+    "rateDate": "Effective 16 Sep 2026",
+    "prime": "No single rate",
+    "primeLabel": "Euro-area prime lending rate",
+    "primeDate": "Varies by bank / country",
+    "mandate": "Price stability: 2% inflation over the medium term.",
+    "move": "Raise · +25 bp",
+    "source": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260910~314e508016.en.html",
+    "mandateUrl": "https://www.ecb.europa.eu/mopo/strategy/pricestab/html/index.en.html",
+    "facts": [
+      "The ECB sets policy for the euro area—not all EU countries.",
+      "Main refinancing rate: 2.65%; marginal lending facility: 2.90%, effective 16 September.",
+      "The deposit facility rate steers policy; commercial lending rates differ across banks and countries."
+    ],
+    "soWhat": "Higher euro rates can increase financing costs and affect the euro. Transmission can differ between member economies.",
+    "news": [
+      {
+        "title": "ECB raises its three key rates",
+        "date": "10 Sep 2026",
+        "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260910~314e508016.en.html",
+        "summary": "The deposit rate increases to 2.50%, effective 16 September.",
+        "sourceName": "European Central Bank"
+      },
+      {
+        "title": "Why a 2% medium-term target?",
+        "date": "Policy explainer",
+        "url": "https://www.ecb.europa.eu/mopo/strategy/pricestab/html/index.en.html",
+        "summary": "Understand the symmetric inflation objective behind rate decisions.",
+        "sourceName": "European Central Bank"
+      }
+    ],
+    "primeSource": "https://www.ecb.europa.eu/mopo/strategy/pricestab/html/index.en.html",
+    "icon": "🇪🇺",
+    "decision": "Raise · +25 bp",
+    "stanceScore": 2,
+    "sourceName": "European Central Bank",
+    "transmission": "Policy rates move euro money markets, bank funding, sovereign yields and the euro.",
+    "watch": "Wage growth, services inflation, energy prices and differences in transmission across member states.",
+    "teamRead": "The Governing Council’s latest rate increase and inflation language make the current team signal hawkish, though decisions remain meeting-by-meeting.",
+    "stanceNote": "A 25 bp increase is an unambiguous tightening action."
+  },
+  {
+    "id": "fed",
+    "region": "Americas",
+    "country": "United States",
+    "name": "US Federal Reserve",
+    "abbr": "FED",
+    "leader": {
+      "bank": "US Federal Reserve",
+      "name": "Kevin Warsh",
+      "title": "Chairman",
+      "source": "https://www.federalreserve.gov/aboutthefed/bios/board/warsh.htm",
+      "image": "https://www.federalreserve.gov/aboutthefed/images/chairman-warsh-130x168.png",
+      "tenure": "Chairman in 2026",
+      "background": "Kevin Warsh previously served as a Federal Reserve governor and worked in investment banking and economic policy. His official testimony stresses price stability and policy credibility.",
+      "sourceName": "Federal Reserve biography"
+    },
+    "rate": "3.75–4.00%",
+    "rateLabel": "Federal funds target range",
+    "rateDate": "Effective 17 Sep 2026",
+    "prime": "7.00%",
+    "primeLabel": "Bank prime loan rate",
+    "primeDate": "17 Sep · H.15 observation",
+    "mandate": "Maximum employment and stable prices; 2% longer-run PCE inflation goal.",
+    "move": "Raise · +25 bp",
+    "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+    "mandateUrl": "https://www.federalreserve.gov/monetarypolicy/monetary-policy-what-are-its-goals-how-does-it-work.htm",
+    "facts": [
+      "The FOMC sets a target range; the effective federal funds rate is an observed market rate.",
+      "Prime is a commercial-bank lending benchmark, not the Fed’s policy rate.",
+      "The September 18 H.15 release records a 7.00% prime rate for September 17."
+    ],
+    "soWhat": "Tighter dollar funding can affect global borrowers, equity valuations and exchange rates, not only US households.",
+    "news": [
+      {
+        "title": "Fed raises its target range",
+        "date": "16 Sep 2026",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+        "summary": "The FOMC raises the range by 25 bp to 3.75–4.00%.",
+        "sourceName": "Federal Reserve Board"
+      },
+      {
+        "title": "Prime rate rises to 7.00%",
+        "date": "18 Sep 2026 release",
+        "url": "https://www.federalreserve.gov/releases/h15/",
+        "summary": "The official release separates prime lending, effective fed funds and Treasury yields.",
+        "sourceName": "Federal Reserve Board"
+      }
+    ],
+    "primeSource": "https://www.federalreserve.gov/releases/h15/",
+    "icon": "🇺🇸",
+    "decision": "Raise · +25 bp, unanimous",
+    "stanceScore": 2,
+    "sourceName": "Federal Reserve Board",
+    "transmission": "Fed funds expectations move the dollar, Treasury yields, credit spreads and bank prime rates globally.",
+    "watch": "Core inflation, payrolls, unemployment, demand resilience and inflation expectations.",
+    "teamRead": "The 2026 FOMC includes varied regional and Board views, but its unanimous September hike makes the current collective signal hawkish.",
+    "stanceNote": "A unanimous increase to support a faster return to 2% inflation is clearly hawkish."
+  },
+  {
+    "id": "boc",
+    "region": "Americas",
+    "country": "Canada",
+    "name": "Bank of Canada",
+    "abbr": "BOC",
+    "leader": {
+      "bank": "Bank of Canada",
+      "name": "Tiff Macklem",
+      "title": "Governor",
+      "source": "https://www.bankofcanada.ca/profile/tiff-macklem/",
+      "image": "https://www.bankofcanada.ca/wp-content/uploads/2014/02/tiff-macklem-250x250.jpg",
+      "tenure": "Governor since June 2020",
+      "background": "Tiff Macklem previously served as the Bank’s senior deputy governor and as dean of the Rotman School of Management; he also worked at Canada’s Department of Finance.",
+      "sourceName": "Bank of Canada profile"
+    },
+    "rate": "2.25%",
+    "rateLabel": "Overnight rate target",
+    "rateDate": "2 Sep 2026 decision",
+    "prime": "4.45%",
+    "primeLabel": "Major-bank prime rate",
+    "primeDate": "16 Sep 2026 weekly observation",
+    "mandate": "Target 2% inflation within a 1–3% range; use flexibility to support sustainable employment.",
+    "move": "Hold · unchanged",
+    "source": "https://www.bankofcanada.ca/2026/09/fad-press-release-2026-09-02/",
+    "mandateUrl": "https://www.bankofcanada.ca/core-functions/monetary-policy/",
+    "facts": [
+      "The overnight target differs from Bank Rate (2.50%) and the deposit rate (2.20%).",
+      "Each commercial bank sets its prime rate; the Bank of Canada publishes a major-bank reference.",
+      "Policy decisions weigh both inflation pressure and economic weakness."
+    ],
+    "soWhat": "A stable policy rate need not mean stable financial conditions: trade uncertainty and credit spreads can still affect business investment.",
+    "news": [
+      {
+        "title": "Bank of Canada holds at 2.25%",
+        "date": "2 Sep 2026",
+        "url": "https://www.bankofcanada.ca/2026/09/fad-press-release-2026-09-02/",
+        "summary": "The Bank leaves its overnight target unchanged.",
+        "sourceName": "Bank of Canada"
+      },
+      {
+        "title": "Deliberations highlight trade and inflation risks",
+        "date": "16 Sep 2026",
+        "url": "https://www.bankofcanada.ca/2026/09/summary-of-governing-council-deliberations-fixed-announcement-date-of-september-2-2026/",
+        "summary": "The discussion explains the balance between growth risks and inflation.",
+        "sourceName": "Bank of Canada"
+      }
+    ],
+    "primeSource": "https://www.bankofcanada.ca/rates/banking-and-financial-statistics/posted-interest-rates-offered-by-chartered-banks/",
+    "icon": "🇨🇦",
+    "decision": "Hold · balanced risk assessment",
+    "stanceScore": 0,
+    "sourceName": "Bank of Canada",
+    "transmission": "The overnight target influences Canadian money markets, bank prime rates, mortgages and the Canadian dollar.",
+    "watch": "Underlying inflation, household demand, trade uncertainty and labor-market slack.",
+    "teamRead": "The Governing Council balances inflation risk against economic weakness. The latest hold reads as balanced rather than strongly hawkish or dovish.",
+    "stanceNote": "A hold with two-sided risks gives little directional conviction."
+  }
+]
