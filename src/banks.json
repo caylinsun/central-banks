@@ -152,6 +152,13 @@
     "soWhat": "Faster currency appreciation can restrain imported inflation, while affecting exporters and the translation of overseas earnings.",
     "news": [
       {
+        "title": "MAS announces senior leadership changes",
+        "date": "1 Oct 2026",
+        "url": "https://www.mas.gov.sg/news/media-releases/2026/mas-announces-senior-leadership-changes",
+        "summary": "MAS announced senior management changes effective 1 November; Chia Der Jiun remains Managing Director.",
+        "sourceName": "Monetary Authority of Singapore"
+      },
+      {
         "title": "MAS slightly steepens appreciation path",
         "date": "27 Jul 2026",
         "url": "https://www.mas.gov.sg/news/monetary-policy-statements/2026/mas-monetary-policy-statement-july-2026",
@@ -404,7 +411,7 @@
     "stanceScore": 0,
     "sourceName": "Bank of Canada",
     "transmission": "The overnight target influences Canadian money markets, bank prime rates, mortgages and the Canadian dollar.",
-    "watch": "Underlying inflation, household demand, trade uncertainty and labor-market slack.",
+    "watch": "October 28 rate decision, energy inflation, tariffs and the durability of the economic rebound.",
     "teamRead": "The Governing Council balances inflation risk against economic weakness. The latest hold reads as balanced rather than strongly hawkish or dovish.",
     "stanceNote": "A hold with two-sided risks gives little directional conviction."
   }
